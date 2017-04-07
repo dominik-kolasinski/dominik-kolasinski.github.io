@@ -3,18 +3,18 @@ var avatar;
 var bulletSpeed = 1;
 
 // Define custom schema for syncing avatar color, set by random-color
-// var avatarSchema = {
-//   template: '#avatar-template',
-//   components: [
-//     'position',
-//     'rotation',
-//     {
-//       // selector: '.head',
-//       component: 'material'
-//     }
-//   ]
-// };
-// NAF.schemas.add(avatarSchema);
+var avatarSchema = {
+  template: '#avatar-template',
+  components: [
+    'position',
+    'rotation',
+    {
+      // selector: '.head',
+      component: 'material'
+    }
+  ]
+};
+NAF.schemas.add(avatarSchema);
 
 
 // Called by Networked-Aframe when connected to server
