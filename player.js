@@ -14,7 +14,7 @@ var bulletSpeed = 1;
 //     }
 //   ]
 // };
-NAF.schemas.add(avatarSchema);
+// NAF.schemas.add(avatarSchema);
 
 
 // Called by Networked-Aframe when connected to server
