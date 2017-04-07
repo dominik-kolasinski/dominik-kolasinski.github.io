@@ -1,0 +1,12 @@
+{
+  "name": "h9-10clouds",
+  "version": "1.0.0",
+  "description": "webvr h9 tech demo",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "author": "dominik.kolasinski@10clouds.com",
+  "dependencies": {
+    "networked-aframe": "^0.1.0"
+  }
+}
